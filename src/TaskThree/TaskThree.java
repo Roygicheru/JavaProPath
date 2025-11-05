@@ -8,6 +8,7 @@ public class TaskThree {
 
         Scanner input = null;
         int count = 0;
+        int totalSum = 0;
         
         System.out.println("Starting challenge 6: Dynamic Input and Stupid Test...");
 

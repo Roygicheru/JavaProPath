@@ -9,7 +9,7 @@ public class Main {
         //  taskOne.mainTaskOne();
 
         //  TaskTwo taskTwo = new TaskTwo();
-        //  taskTwo.MainTaskTwo();
+        //  taskTwo.mainTaskTwo();
 
          TaskThree taskThree = new TaskThree();
          taskThree.mainTaskSix();

@@ -1,7 +1,7 @@
 package TaskTwo;
 
 public class TaskTwo {
-    public void MainTaskTwo(){
+    public void mainTaskTwo(){
         int[] taskScores = {10, 8, 9, 7, 6};
         int totalScore = 0;
 

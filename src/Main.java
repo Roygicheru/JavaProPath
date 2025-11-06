@@ -12,7 +12,7 @@ public class Main {
         //  taskTwo.MainTaskTwo();
 
          TaskThree taskThree = new TaskThree();
-         taskThree.MainTaskSix();
+         taskThree.mainTaskSix();
 
     }
 }

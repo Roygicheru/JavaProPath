@@ -4,7 +4,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class TaskThree {
-    public void mainTaskSix(){
+    public void mainTaskThree(){
 
         Scanner input = null;
         int count = 0;

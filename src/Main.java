@@ -1,6 +1,7 @@
 // import TaskOne.TaskOne;
 // import TaskTwo.TaskTwo;
-import TaskThree.TaskThree;
+// import TaskThree.TaskThree;
+import TaskFour.TaskFour;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,8 +12,11 @@ public class Main {
         //  TaskTwo taskTwo = new TaskTwo();
         //  taskTwo.mainTaskTwo();
 
-         TaskThree taskThree = new TaskThree();
-         taskThree.mainTaskSix();
+        //  TaskThree taskThree = new TaskThree();
+        //  taskThree.mainTaskThree();
+
+         TaskFour taskFour = new TaskFour();
+         taskFour.mainTaskFour();
 
     }
 }

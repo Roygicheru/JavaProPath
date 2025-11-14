@@ -30,7 +30,8 @@ public class TaskFour {
                     continue;
                 }
                 } catch (InputMismatchException e) {
-                    System.out.println("Invalid input. Please enter a valid integer score or -1 to quit.");
+                    System.out.println("Invalid input. Please enter "+
+                    "a valid integer score or -1 to quit.");
                     input.next(); // Clear the invalid input
                     continue;
                 }

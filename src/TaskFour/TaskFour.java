@@ -14,8 +14,6 @@ public class TaskFour {
             input = new Scanner(System.in);
             System.out.println("Starting challenge 7: "+
             "While Loops and Averaging...");
-            System.out.println("Initial totalSum: " + totalSum);
-            System.out.println("Initial count: " + count);
 
             while (score != -1) {
                 try {
@@ -44,6 +42,14 @@ public class TaskFour {
                 " successfully closed.");
                 input.close();
             }
+        }
+        if (count > 0) {
+            double average = totalSum / count;
+            System.out.println("The total sum of scores is: " + totalSum);
+            System.out.println("Number of valid scores entered: " + count);
+            System.out.println("The average score is: " + average);
+        } else if (count == 0) {
+            System.out.println("No valid scores were entered.");
         }
     }
 }

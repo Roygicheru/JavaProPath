@@ -25,4 +25,8 @@ public class TaskOne {
             }
         }
     }
+
+    public void otherTask(){
+        System.out.println("This is another task method.");
+    }
 }

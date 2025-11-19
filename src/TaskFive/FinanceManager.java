@@ -10,7 +10,7 @@ public class FinanceManager {
         } else {
             return 0.0;
         }
-        double minExpense = expenses.get(0);
+        // double minExpense = expenses.get(0);
     }
 
     public void runFinanceManager(){

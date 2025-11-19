@@ -5,7 +5,19 @@ import java.util.ArrayList;
 public class FinanceManager {
 
     public static double findLowestExpense(ArrayList<Double> expenses) {
-        return 0.0;
+
+        if (expenses.isEmpty()) {
+            return 0.0;
+        }
+        double minExpense = expenses.get(0);
+
+        for (double expense : expenses) {
+            if (expense < minExpense) {
+                minExpense = expense;
+            }
+        }
+
+        return minExpense;
     }
 
     public void runFinanceManager(){
@@ -22,5 +34,9 @@ public class FinanceManager {
         }
 
         System.out.println("Monthly Expenses: " + monthlyExpenses);
+
+        double lowestExpense = findLowestExpense(monthlyExpenses);
+        
+        System.out.println("Lowest Expense Found: " + lowestExpense);
     }
 }

@@ -2,7 +2,8 @@
 // import TaskTwo.TaskTwo;
 // import TaskThree.TaskThree;
 // import TaskFour.TaskFour;
-import TaskFive.FinanceManager;
+// import TaskFive.FinanceManager;
+import TaskSix.DataProcessor;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,8 +21,11 @@ public class Main {
         //  TaskFour taskFour = new TaskFour();
         //  taskFour.mainTaskFour();
 
-        FinanceManager financeManager = new FinanceManager();
-        financeManager.runFinanceManager();
+        // FinanceManager financeManager = new FinanceManager();
+        // financeManager.runFinanceManager();
+
+        DataProcessor dataProcessor = new DataProcessor();
+        dataProcessor.runDataProcessor();
 
     }
 }

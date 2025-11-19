@@ -1,8 +1,21 @@
 package TaskOne;
+import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class TaskOne {
+
+    public static Double findMin(ArrayList<Double> list){
+
+        double minimum = list.get(0);
+        
+        for (double currentNumber : list){
+            if (currentNumber < minimum){
+                minimum = currentNumber;
+            }
+        }
+        return minimum;
+    }
 
     public void mainTaskOne(){
         Scanner input = null;
@@ -27,6 +40,15 @@ public class TaskOne {
     }
 
     public void otherTask(){
-        System.out.println("This is another task method.");
+
+        ArrayList<Double> temperatures = new ArrayList<Double>();
+        temperatures.add(65.2);
+        temperatures.add(70.5);
+        temperatures.add(58.4);
+        temperatures.add(72.1);
+
+        double minTemperature = findMin(temperatures);
+
+            System.out.println("Minimum Temperature: " + minTemperature);
     }
 }

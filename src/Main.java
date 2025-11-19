@@ -1,15 +1,15 @@
-import TaskOne.TaskOne;
+// import TaskOne.TaskOne;
 // import TaskTwo.TaskTwo;
 // import TaskThree.TaskThree;
 // import TaskFour.TaskFour;
-// import TaskFive.FinanceManager;
+import TaskFive.FinanceManager;
 
 public class Main {
     public static void main(String[] args) {
 
-         TaskOne taskOne = new TaskOne();
+        //  TaskOne taskOne = new TaskOne();
         //  taskOne.mainTaskOne();
-         taskOne.otherTask();
+        //  taskOne.otherTask();
 
         //  TaskTwo taskTwo = new TaskTwo();
         //  taskTwo.mainTaskTwo();
@@ -20,8 +20,8 @@ public class Main {
         //  TaskFour taskFour = new TaskFour();
         //  taskFour.mainTaskFour();
 
-        // FinanceManager financeManager = new FinanceManager();
-        // financeManager.runFinanceManager();
+        FinanceManager financeManager = new FinanceManager();
+        financeManager.runFinanceManager();
 
     }
 }

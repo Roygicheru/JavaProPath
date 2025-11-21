@@ -1,0 +1,24 @@
+package ChallengeNine;
+
+import java.util.ArrayList;
+
+public class DataProcessor {
+    public void runDataProcessor(){
+        ArrayList<Double> monthlyExpenses = new ArrayList<>();
+        
+        double[] expenseValues = {45.99,120.50,8.75,230.00,15.25};
+
+        for(int i = 0; i < expenseValues.length; i++){
+            
+            monthlyExpenses.add(expenseValues[i]);
+        }
+
+        System.out.println("--- Monthly Expenses Report ---");
+
+        for(int i = 0; i < monthlyExpenses.size(); i++){
+            System.out.println("Expense " + (i) + ": " + monthlyExpenses.get(i));
+        }
+
+        System.out.println("-------------------------------");
+    }
+}

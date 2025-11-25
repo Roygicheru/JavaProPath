@@ -51,4 +51,9 @@ public class TaskOne {
 
             System.out.println("Minimum Temperature: " + minTemperature);
     }
+
+    public void practiceTask(){
+        String name = "Roy";
+        System.out.println("Practice makes perfect, " + name + "!");
+    }
 }

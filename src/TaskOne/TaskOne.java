@@ -54,6 +54,8 @@ public class TaskOne {
 
     public void practiceTask(){
         String name = "Roy";
-        System.out.println("Practice makes perfect, " + name + "!");
+        System.out.print("The number you've chosen, " + name + ", is: ");
+        System.out.println(3 + 3);
+        System.out.println("10" + 5);
     }
 }

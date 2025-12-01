@@ -1,17 +1,18 @@
-import TaskOne.TaskOne;
+// import TaskOne.TaskOne;
 // import TaskTwo.TaskTwo;
 // import TaskThree.TaskThree;
 // import TaskFour.TaskFour;
 // import TaskFive.FinanceManager;
 // import ChallengeNine.DataProcessor;
+import JavaTestProjects.JavaTestProjects;
 
 public class Main {
     public static void main(String[] args) {
 
-         TaskOne taskOne = new TaskOne();
+        //  TaskOne taskOne = new TaskOne();
         //  taskOne.mainTaskOne();
         //  taskOne.otherTask();
-         taskOne.practiceTask();
+        //  taskOne.practiceTask();
 
         //  TaskTwo taskTwo = new TaskTwo();
         //  taskTwo.mainTaskTwo();
@@ -27,6 +28,9 @@ public class Main {
 
         // DataProcessor dataProcessor = new DataProcessor();
         // dataProcessor.runDataProcessor();
+
+        JavaTestProjects javaTestProjects = new JavaTestProjects();
+        javaTestProjects.digitalAssetTracker();
 
     }
 }

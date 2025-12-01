@@ -1,0 +1,40 @@
+package JavaTestProjects;
+
+public class JavaTestProjects {
+    /* Digital Asset Tracker Project */
+    /** 
+     * This project tracks digital assets by declaring various variables
+     * of different data types, performs calculations, and demonstrates
+     * type casting in Java.
+     * @author Roy Gicheru
+     */
+    public void digitalAssetTracker(){
+        //Asset name declaration
+        String assetName = "Bitcoin";
+        //License key declaration
+        String licenseKey = "XYZ-123-ABC-456";
+        //Active status declaration
+        boolean isActive = true;
+        //Asset category declaration
+        char assetCategory = 'C';
+        //Unit price declaration
+        double unitPrice = 30000.50;
+        //Quantity purchased declaration
+        int quantityPurchased = 2;
+        //Total cost calculation
+        double totalCost = unitPrice * quantityPurchased;
+        //Type casting examples, estimating whole cost and converting quantity to double
+        int estimatedWholeCost = (int) totalCost;
+        double doubleQuantity = quantityPurchased;
+        
+        System.out.println("Asset Name: " + assetName);
+        System.out.println("License Key: " + licenseKey);
+        System.out.println("Is Active: " + isActive);
+        System.out.println("Asset Category: " + assetCategory);
+        System.out.println("Unit Price: $" + unitPrice);
+        System.out.println("Quantity Purchased: " + quantityPurchased);
+        System.out.println("Total Cost: $" + totalCost);
+        System.out.println("Estimated Whole Cost: $" + estimatedWholeCost);
+        System.out.println("Double Quantity: " + doubleQuantity);
+    }
+}

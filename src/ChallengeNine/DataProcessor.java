@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class DataProcessor {
     public void runDataProcessor(){
-        ArrayList<Double> monthlyExpenses = new ArrayList<>();
+        var monthlyExpenses = new ArrayList<Double>();
         
         double[] expenseValues = {45.99,120.50,8.75,230.00,15.25};
 

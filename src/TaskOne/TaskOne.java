@@ -41,7 +41,7 @@ public class TaskOne {
 
     public void otherTask(){
 
-        ArrayList<Double> temperatures = new ArrayList<Double>();
+        var temperatures = new ArrayList<Double>();
         temperatures.add(65.2);
         temperatures.add(70.5);
         temperatures.add(58.4);

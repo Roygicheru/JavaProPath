@@ -19,7 +19,7 @@ public class TaskOne {
 
     public void mainTaskOne(){
         Scanner input = null;
-        int taskNumber = 0;
+        int taskNumber;
         try {
             input = new Scanner(System.in);
             System.out.print("Please provide your task number: ");

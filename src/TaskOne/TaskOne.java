@@ -53,9 +53,17 @@ public class TaskOne {
     }
 
     public void practiceTask(){
-        String name = "Roy";
-        System.out.print("The number you've chosen, " + name + ", is: ");
-        System.out.println(3 + 3);
-        System.out.println("10" + 5);
+        // Set the maximum possible grade in the classroom grades to 100
+        int maxGrade = 100;
+
+        // The actual score of the user
+        int userGrade= 80;
+
+        /* Calculate the percentage of the user's score in relation to the maximum available score.
+        Convert userGrade to double to make sure that the division is accurate */
+        double percentage = (double) userGrade / maxGrade * 100.0d;
+
+        // Print the result
+        System.out.println("User's grade is: " + percentage);
     }
 }

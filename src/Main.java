@@ -30,7 +30,8 @@ public class Main {
         // dataProcessor.runDataProcessor();
 
         JavaTestProjects javaTestProjects = new JavaTestProjects();
-        javaTestProjects.digitalAssetTracker();
+        // javaTestProjects.digitalAssetTracker();
+        javaTestProjects.automatedVendingMachine();
 
     }
 }

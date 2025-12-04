@@ -1,5 +1,7 @@
 package JavaTestProjects;
 
+import java.util.Arrays;
+
 public class JavaTestProjects {
     /* Digital Asset Tracker Project */
     /** 
@@ -36,5 +38,24 @@ public class JavaTestProjects {
         System.out.println("Total Cost: $" + totalCost);
         System.out.println("Estimated Whole Cost: $" + estimatedWholeCost);
         System.out.println("Double Quantity: " + doubleQuantity);
+    }
+    
+    /* Automated Vending Machine Project */
+    /**
+     * This project is intended to simulate an automated vending machine.
+     * It is meant to test skills in fundamental Java programming concepts.
+     * @author Roy Gicheru
+     */
+
+    public void automatedVendingMachine(){
+        String[] items = {"Soda", "Water", "Chips", "Cookies","Candy"};
+        double[] prices = {1.50, 1.00, 1.25, 1.75, 0.95};
+        double cashInserted = 3.00;
+        int itemSelection = 3; 
+        final double MAX_REFUND_LIMIT = 5.00;
+        if (itemSelection >= 0 && itemSelection < 5) {
+            System.out.println((cashInserted >= itemSelection));
+                
+        }
     }
 }

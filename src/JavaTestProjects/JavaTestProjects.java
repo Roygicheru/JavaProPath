@@ -48,14 +48,51 @@ public class JavaTestProjects {
      */
 
     public void automatedVendingMachine(){
-        String[] items = {"Soda", "Water", "Chips", "Cookies","Candy"};
+        String[] items = {"Soda", "Water", "Chips", "Cookies", "Candy"};
         double[] prices = {1.50, 1.00, 1.25, 1.75, 0.95};
         double cashInserted = 3.00;
         int itemSelection = 3; 
         final double MAX_REFUND_LIMIT = 5.00;
-        if (itemSelection >= 0 && itemSelection < 5) {
-            System.out.println((cashInserted >= itemSelection));
-                
+
+        System.out.println("\n***Vending Machine "+
+        "Transaction Report***");
+        System.out.println("\n--- Initialization ---");
+        System.out.println("Cash Inserted: $" + cashInserted);
+        System.out.println("Item Selected (Index): " + itemSelection);
+        System.out.println("Item name: " + items[itemSelection]);
+        System.out.println("Item Price: $" + prices[itemSelection]);
+        System.out.println("Maximum refund limit: $" +
+        MAX_REFUND_LIMIT + "\n");
+
+        if(itemSelection >= 0 && itemSelection < 5 &&
+            (cashInserted >= prices[itemSelection])) {
+            
+            System.out.println("--- Transaction Pre-Check ---");
+            System.out.println("Selection confirmed: " +
+            items[itemSelection] + " at $" +
+            prices[itemSelection] + ".");
+            System.out.println("Transaction approved. "+
+            "Dispensing item...\n");
+
+            System.out.println("--- Dispensing Simulation ---");
+            for(int i = 0; i < items.length; i++) {
+                if (i != itemSelection) {
+                    System.out.println("Checking Slot " + i + 
+                    " does not match selection. Skipping...");
+                    continue;
+                }
+                System.out.println("--- Item Dispensed: " + items[i] + 
+                " ---");
+                System.out.println("Dispensing complete.\n");
+                break;
+            }
+            
+        } else {
+            System.out.println("--- Transaction Pre-Check ---");
+            System.out.println("Transaction failed. Invalid "+
+            "selection or insufficient funds.");
+            System.out.println("--- PROCESS TERMINATED ---\n");
+            return;
         }
     }
 }

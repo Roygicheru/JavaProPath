@@ -1,7 +1,5 @@
 package JavaTestProjects;
 
-import java.util.Arrays;
-
 public class JavaTestProjects {
     /* Digital Asset Tracker Project */
     /** 

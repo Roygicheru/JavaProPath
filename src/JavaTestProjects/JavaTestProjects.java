@@ -86,7 +86,51 @@ public class JavaTestProjects {
                 System.out.println("Dispensing complete.\n");
                 break;
             }
-            
+
+            double changeDue = cashInserted - prices[itemSelection];
+            String refundStatus;
+
+            System.out.println("--- Final Change and Refund Report ---");
+
+            if (changeDue == (int) changeDue) {
+                System.out.println("Change is a whole dollar amount.");
+            } else {
+                System.out.println("Change includes cents");
+            }
+
+
+            if (changeDue == 0.0) {
+                refundStatus = "No Refund";
+            }else if (changeDue <= 1.00){
+                refundStatus = "Small Change";
+            } else if (changeDue <= MAX_REFUND_LIMIT) {
+                refundStatus = "Standard Refund";
+            } else {
+                refundStatus = "Limit Exceeded";
+            }
+            System.out.println("Change Due: $" + String.format("%.2f", changeDue));
+            System.out.println("\nRefund Status: " + refundStatus + "\n");
+
+            System.out.println("\n** CUSTOMER MESSAGE **");
+            switch (refundStatus) {
+                case "No Refund":
+                    System.out.println("No change to dispense.");
+                    break;
+                case "Small Change":
+                    System.out.println("Thank you! Your small change of $" + String.format("%.2f", changeDue) + " is being returned.");
+                    break;
+                case "Standard Refund":
+                    System.out.println("Thank you! Your change of $" + String.format("%.2f", changeDue) + " is being returned now. Have a great day!");
+                    break;
+                case "Limit Exceeded":
+                    System.out.println("Refund limit exceeded. "+
+                    "Please contact support.");
+                    break;
+                default:
+                    System.out.println("Unknown refund status.");
+                    break;
+            }
+
         } else {
             System.out.println("--- Transaction Pre-Check ---");
             System.out.println("Transaction failed. Invalid "+

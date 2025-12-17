@@ -5,6 +5,7 @@
 // import TaskFive.FinanceManager;
 // import ChallengeNine.DataProcessor;
 import JavaTestProjects.JavaTestProjects1;
+import JavaTestProjects.JavaTestProjects2;
 
 public class Main {
     public static void main(String[] args) {
@@ -29,9 +30,12 @@ public class Main {
         // DataProcessor dataProcessor = new DataProcessor();
         // dataProcessor.runDataProcessor();
 
-        JavaTestProjects1 javaTestProjects = new JavaTestProjects1();
+        // JavaTestProjects1 javaTestProjects = new JavaTestProjects1();
         // javaTestProjects.digitalAssetTracker();
-        javaTestProjects.automatedVendingMachine();
+        // javaTestProjects.automatedVendingMachine();
+
+        JavaTestProjects2 javaTestProjects2 = new JavaTestProjects2();
+        javaTestProjects2.sampleMethod();
 
     }
 }

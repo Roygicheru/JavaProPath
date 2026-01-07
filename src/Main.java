@@ -5,7 +5,8 @@
 // import TaskFive.FinanceManager;
 // import ChallengeNine.DataProcessor;
 // import JavaTestProjects.JavaTestProjects1;
-import JavaTestProjects.JavaTestProjects2;
+// import JavaTestProjects.JavaTestProjects2;
+import HabitHarvest.HabitHarvest;
 
 public class Main {
     public static void main(String[] args) {
@@ -34,8 +35,11 @@ public class Main {
         // javaTestProjects.digitalAssetTracker();
         // javaTestProjects.automatedVendingMachine();
 
-        JavaTestProjects2 javaTestProjects2 = new JavaTestProjects2();
-        javaTestProjects2.sampleMethod();
+        // JavaTestProjects2 javaTestProjects2 = new JavaTestProjects2();
+        // javaTestProjects2.sampleMethod();
+
+        HabitHarvest habitHarvest = new HabitHarvest();
+        habitHarvest.mainLogic();
 
     }
 }

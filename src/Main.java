@@ -1,12 +1,6 @@
 // import TaskOne.TaskOne;
-// import TaskTwo.TaskTwo;
-// import TaskThree.TaskThree;
-// import TaskFour.TaskFour;
-// import TaskFive.FinanceManager;
-// import ChallengeNine.DataProcessor;
-// import JavaTestProjects.JavaTestProjects1;
-// import JavaTestProjects.JavaTestProjects2;
-import HabitHarvest.HabitHarvest;
+// import HabitHarvest.HabitHarvest;
+import SystechInternship.SystechInternship1;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,30 +10,11 @@ public class Main {
         //  taskOne.otherTask();
         //  taskOne.practiceTask();
 
-        //  TaskTwo taskTwo = new TaskTwo();
-        //  taskTwo.mainTaskTwo();
+        SystechInternship1 systechInternship1 = new SystechInternship1();
+        systechInternship1.internshipTask();
 
-        //  TaskThree taskThree = new TaskThree();
-        //  taskThree.mainTaskThree();
-
-        //  TaskFour taskFour = new TaskFour();
-        //  taskFour.mainTaskFour();
-
-        // FinanceManager financeManager = new FinanceManager();
-        // financeManager.runFinanceManager();
-
-        // DataProcessor dataProcessor = new DataProcessor();
-        // dataProcessor.runDataProcessor();
-
-        // JavaTestProjects1 javaTestProjects = new JavaTestProjects1();
-        // javaTestProjects.digitalAssetTracker();
-        // javaTestProjects.automatedVendingMachine();
-
-        // JavaTestProjects2 javaTestProjects2 = new JavaTestProjects2();
-        // javaTestProjects2.sampleMethod();
-
-        HabitHarvest habitHarvest = new HabitHarvest();
-        habitHarvest.mainLogic();
+        // HabitHarvest habitHarvest = new HabitHarvest();
+        // habitHarvest.mainLogic();
 
     }
 }

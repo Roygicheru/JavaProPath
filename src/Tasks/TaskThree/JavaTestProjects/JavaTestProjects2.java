@@ -1,4 +1,4 @@
-package JavaTestProjects;
+package Tasks.TaskThree.JavaTestProjects;
 
 public class JavaTestProjects2 {
     public void sampleMethod(){

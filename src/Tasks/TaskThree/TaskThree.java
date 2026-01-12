@@ -1,5 +1,4 @@
-package TaskThree;
-
+package Tasks.TaskThree;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 

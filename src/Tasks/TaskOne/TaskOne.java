@@ -1,4 +1,4 @@
-package TaskOne;
+package Tasks.TaskOne;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;

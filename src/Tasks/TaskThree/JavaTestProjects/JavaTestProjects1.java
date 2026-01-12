@@ -1,4 +1,4 @@
-package JavaTestProjects;
+package Tasks.TaskThree.JavaTestProjects;
 
 public class JavaTestProjects1 {
     /* Digital Asset Tracker Project */

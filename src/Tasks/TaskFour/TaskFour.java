@@ -1,4 +1,4 @@
-package TaskFour;
+package Tasks.TaskFour;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

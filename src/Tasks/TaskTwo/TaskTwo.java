@@ -1,4 +1,4 @@
-package TaskTwo;
+package Tasks.TaskTwo;
 
 public class TaskTwo {
     public void mainTaskTwo(){

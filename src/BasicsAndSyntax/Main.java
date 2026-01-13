@@ -1,6 +1,7 @@
+package BasicsAndSyntax;
 // import Tasks.TaskOne.TaskOne;
 // import HabitHarvest.HabitHarvest;
-import SystechInternship.SystechInternship1;
+import BasicsAndSyntax.SystechInternship.SystechInternship1;
 
 public class Main {
     public static void main(String[] args) {

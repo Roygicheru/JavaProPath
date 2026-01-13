@@ -6,8 +6,12 @@
 	],
 	"settings": {
 		"java.project.sourcePaths": [
-			"src"
+			"src",
+			"internshipsessions/src/main/java/com/github/roygicheru"
 		],
-		"java.project.referencedLibraries": []
+		"java.project.referencedLibraries": [],
+		"cSpell.words": [
+			"roygicheru"
+		]
 	}
 }

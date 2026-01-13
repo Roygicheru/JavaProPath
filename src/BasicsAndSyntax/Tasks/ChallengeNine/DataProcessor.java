@@ -1,4 +1,4 @@
-package Tasks.ChallengeNine;
+package BasicsAndSyntax.Tasks.ChallengeNine;
 
 import java.util.ArrayList;
 

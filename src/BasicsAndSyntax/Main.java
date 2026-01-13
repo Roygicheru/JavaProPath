@@ -1,6 +1,5 @@
-// import Tasks.TaskOne.TaskOne;
-// import HabitHarvest.HabitHarvest;
-import SystechInternship.SystechInternship1;
+package BasicsAndSyntax;
+import BasicsAndSyntax.SystechInternship.SystechInternship1;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,7 +12,7 @@ public class Main {
         // HabitHarvest habitHarvest = new HabitHarvest();
         // habitHarvest.mainLogic();
 
-        SystechInternship1 systechInternship1 = new SystechInternship1();
+        BasicsAndSyntax.SystechInternship.SystechInternship1 systechInternship1 = new BasicsAndSyntax.SystechInternship.SystechInternship1();
         systechInternship1.internshipTask();
 
     }

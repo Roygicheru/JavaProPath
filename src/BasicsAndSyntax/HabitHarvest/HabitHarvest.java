@@ -1,4 +1,4 @@
-package HabitHarvest;
+package BasicsAndSyntax.HabitHarvest;
 
 public class HabitHarvest {
     public void mainLogic(){

@@ -1,4 +1,4 @@
-package SystechInternship;
+package BasicsAndSyntax.SystechInternship;
 
 public class SystechInternship1 {
     public void internshipTask(){

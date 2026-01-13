@@ -1,9 +1,5 @@
 package BasicsAndSyntax;
-<<<<<<< HEAD
-// import Tasks.TaskOne.TaskOne;
-// import HabitHarvest.HabitHarvest;
-=======
->>>>>>> code-additions-and-experiments
+
 import BasicsAndSyntax.SystechInternship.SystechInternship1;
 
 public class Main {

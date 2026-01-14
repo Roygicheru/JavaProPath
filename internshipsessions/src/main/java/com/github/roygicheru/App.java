@@ -10,6 +10,8 @@ public class App
     {
         // System.out.println( "Hello World!" );
         com.github.roygicheru.SystechIntern.SessionTask1 sessionTask1 = new com.github.roygicheru.SystechIntern.SessionTask1();
-        sessionTask1.internshipTask();
+        // sessionTask1.internshipTask();
+        // sessionTask1.exercise1();
+        sessionTask1.simpleTask();
     }
 }

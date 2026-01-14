@@ -17,13 +17,34 @@ public class SessionTask1 {
             int mynumber = scanner.nextInt();
             scanner.nextLine(); // Clear the "Enter" key buffer
 
-            if (mynumber == 0) {
-                System.out.println("Goodbye!");
-                break;
+
+            while (true){
+            System.out.println("Type \"double\" to double the number. Type \"triple\" to square the number,");
+            System.out.println("or type \"new\" to enter a new number and \"exit\" to quit.");
+            String action = scanner.nextLine().toLowerCase();
+
+            if (action.equals("exit")) {
+                System.out.println("Thankyou for using the program. Goodbye!");
+                scanner.close();
+                return; // Exits the entire method
+            } else if (action.equals("new")) {
+                System.out.println("Returning to number entry...");
+                break; // Breaks the INNER loop to go back to the top of the OUTER loop
             }
-            System.out.println("You entered: " + mynumber);
+
+            switch (action) {
+                case "double":
+                    System.out.println("Result: " + (mynumber * 2));
+                    break;
+                case "triple":
+                    System.out.println("Result: " + (mynumber * mynumber));
+                    break;
+                default:
+                    System.out.println("Invalid action.");
+                    break;
+            }
         }
-        scanner.close();
+        }
     }
 
     public void exercise1() {

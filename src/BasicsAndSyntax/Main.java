@@ -13,7 +13,7 @@ public class Main {
         // HabitHarvest habitHarvest = new HabitHarvest();
         // habitHarvest.mainLogic();
 
-        BasicsAndSyntax.SystechInternship.SystechInternship1 systechInternship1 = new BasicsAndSyntax.SystechInternship.SystechInternship1();
+        SystechInternship1 systechInternship1 = new SystechInternship1();
         systechInternship1.internshipTask();
 
     }
